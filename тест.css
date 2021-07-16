@@ -1,0 +1,65 @@
+body {
+    background-color: yellow;
+}
+
+dd {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+dt {
+    font-weight: bold; 
+    color: forestgreen;
+}
+
+ul {
+list-style-position: inside; /* что бы картинка была внутри*/
+list-style: none;
+}
+
+ul li::before {
+
+    content: "-";
+}  
+
+.summer {
+    list-style-image: url("img/icons8-лето-16.png");
+}
+
+
+.autumn {  
+    list-style-image: url("img/icons8-дождь-16.png");
+}
+
+.winter {
+    list-style-image: url("img/icons8-зима-50.png");
+}
+
+.winter a:visited, .summer a:visited, .spring a:visited, .autumn a:visited{
+    color: mediumblue;
+    
+    
+    
+}
+.summer a:hover, .autumn a:hover, .winter a:hover,.spring a:hover
+ {
+    color: red;
+    cursor: pointer;
+}
+.winter a:focus, .summer a:focus, .spring a:focus, .autumn a:focus{
+    color: orange;
+}
+.spring {
+    list-style-image: url("img/icons8-весна-48.png");
+}
+img {
+    width: 50%;
+
+}
+
+.wrap {
+    background-repeat: no-repeat;
+    background-image: url("img/фонBG.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
