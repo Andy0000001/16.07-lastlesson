@@ -1,0 +1,16 @@
+li{
+    background-color: yellowgreen;
+    margin: 5px;
+}
+
+li:first-child {
+    background-color: violet;
+}
+
+li:last-child {
+background-color: tomato;
+}
+
+li:nth-child(5) {
+    background-color: yellow;
+}
